@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Material -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Material">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#House"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#House -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#House"/>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Балка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Балка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Крыша"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Крыша -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Крыша">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#House"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#МатериалП -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#МатериалП">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Пол"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#МатериалС -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#МатериалС">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Стена"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Пол -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Пол">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#House"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Стена -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Стена">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#House"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#СтруктураК -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#СтруктураК">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Крыша"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#СтруктураС -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#СтруктураС">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Стена"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Фундамент -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Фундамент">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#House"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#AA1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#AA1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Крыша"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#AA2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#AA2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Крыша"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#AABRD1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#AABRD1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#СтруктураК"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#AABRD2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#AABRD2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#СтруктураК"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#AABRD3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#AABRD3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#СтруктураК"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#AABRD4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#AABRD4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#СтруктураК"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#ARQ1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#ARQ1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#House"/>
+        <Material rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Дерево</Material>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#ARQ2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#ARQ2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#House"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#ARQ3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#ARQ3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#House"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#BRD1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#BRD1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Балка"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#BRD2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#BRD2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Балка"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#BRD3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#BRD3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/олег/ontologies/2022/4/untitled-ontology-5#Балка"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
